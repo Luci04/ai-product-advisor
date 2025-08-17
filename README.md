@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# AI Product Advisor
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**AI Product Advisor** is a React Native app built with Expo that allows users to get smart product recommendations based on plain English queries. Powered by an AI backend (like Gemini or OpenAI), it matches user requirements with your product catalog and displays ranked recommendations with explanations.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Natural Language Queries**: Users can describe what they need in plain English.
+- **AI-Powered Recommendations**: Uses AI to match user requirements with the product catalog.
+- **Product Ranking**: Recommendations are sorted by relevance score.
+- **Shimmer Loading Effect**: Stylish placeholders while AI responses are loading.
+- **Modern UI**: Clean, responsive design using React Native styles.
+- **Clear & Reset Options**: Easily clear queries and results.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+1. **Clone the repository**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+````bash
+git clone https://github.com/yourusername/ai-product-advisor.git
+cd ai-product-advisor
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
-
-When you're ready, run:
+2. **Install dependencies**
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/yourusername/ai-product-advisor.git
+cd ai-product-advisor
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. **Install Expo CLI (if not installed)**
 
-## Learn more
+```bash
+npm install -g expo-cli
 
-To learn more about developing your project with Expo, look at the following resources:
+4. **Place KEY in .env file**
+GEMINI_API_KEY=your_actual_api_key_here
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+5. **Install Expo CLI (if not installed)**
 
-## Join the community
+```bash
+npm run android
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+````

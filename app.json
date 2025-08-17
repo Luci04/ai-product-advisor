@@ -2,9 +2,6 @@
   "expo": {
     "name": "ai-product-advisor",
     "slug": "ai-product-advisor",
-    "extra": {
-      "geminiApiKey": "AIzaSyAyqvr5ZVZF3zwFPLXvOvYwCFfwksGxTP8"
-    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
