@@ -19,29 +19,22 @@
 
 1. **Clone the repository**
 
-````bash
+```bash
 git clone https://github.com/yourusername/ai-product-advisor.git
 cd ai-product-advisor
 
 ## Installation
 
 2. **Install dependencies**
-
-```bash
 git clone https://github.com/yourusername/ai-product-advisor.git
 cd ai-product-advisor
 
 3. **Install Expo CLI (if not installed)**
-
-```bash
 npm install -g expo-cli
 
 4. **Place KEY in .env file**
 GEMINI_API_KEY=your_actual_api_key_here
 
 5. **Install Expo CLI (if not installed)**
-
-```bash
 npm run android
-
-````
+```
